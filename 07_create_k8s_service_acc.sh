@@ -9,4 +9,4 @@ kubectl delete -f vault-auth-secret.yaml
 kubectl apply -f CRB-vault-auth-service-account.yaml
 
 #create secret for sa vault-auth -- required since k8s version 1.24+
-#kubectl apply -f vault-auth-secret.yaml
+kubectl apply -f vault-auth-secret.yaml
