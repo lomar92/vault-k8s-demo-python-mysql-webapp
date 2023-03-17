@@ -5,7 +5,7 @@
 My test Env
 1) Docker Desktop v2.3.0.3  with k8s enabled
 2) Helm v3.2.1 
-3) MacOS 10.15.5
+3) MacOS 13.2.1
 
 Create Docker Image for your Demo. Change in **app** directory and push your image in docker hub. Change image in your configuration. 
 
